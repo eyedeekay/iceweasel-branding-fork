@@ -13,3 +13,4 @@
         Copyright (C) 2005-2014, Mike Hommey <glandium@debian.org>
         License: MPL-2.0
 
+	The artwork is copyright Unicko.

@@ -7,9 +7,10 @@ file, You can obtain one at http://mozilla.org/MPL/2.0/.
   <Description about="urn:mozilla:install-manifest">
     <em:id>iceweasel-branding@mozilla.debian.net</em:id>
     <em:name>Iceweasel Branding</em:name>
-    <em:version>0.1.0</em:version>
+    <em:version>0.1.1</em:version>
     <em:unpack>true</em:unpack>
     <em:creator>Desktopd Project</em:creator>
+    <em:contributor>Unicko</em:contributor>
     <em:contributor>Mike Hommey</em:contributor>
     <em:description>Restore Debian Iceweasel branding. Note: Not intended for distribution with Firefox. Please consult Mozilla's Trademark Policy.</em:description>
     <em:targetApplication>
