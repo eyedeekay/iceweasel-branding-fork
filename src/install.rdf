@@ -1,0 +1,23 @@
+<!--
+This Source Code Form is subject to the terms of the Mozilla Public
+License, v. 2.0. If a copy of the MPL was not distributed with this
+file, You can obtain one at http://mozilla.org/MPL/2.0/.
+-->
+<RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:em="http://www.mozilla.org/2004/em-rdf#">
+  <Description about="urn:mozilla:install-manifest">
+    <em:id>iceweasel-branding@mozilla.debian.net</em:id>
+    <em:name>Iceweasel Branding</em:name>
+    <em:version>0.1.0</em:version>
+    <em:unpack>true</em:unpack>
+    <em:creator>Desktopd Project</em:creator>
+    <em:contributor>Mike Hommey</em:contributor>
+    <em:description>Restore Debian Iceweasel branding. Note: Not intended for distribution with Firefox. Please consult Mozilla's Trademark Policy.</em:description>
+    <em:targetApplication>
+      <Description>
+        <em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id>
+        <em:minVersion>38.0</em:minVersion>
+        <em:maxVersion>*</em:maxVersion>
+      </Description>
+    </em:targetApplication>
+  </Description>
+</RDF>

@@ -1,0 +1,24 @@
+# This Source Code Form is subject to the terms of the Mozilla Public
+# License, v. 2.0. If a copy of the MPL was not distributed with this
+# file, You can obtain one at http://mozilla.org/MPL/2.0/.
+
+content iceweasel-branding chrome/content/
+locale iceweasel-branding en-US chrome/locale/
+
+manifest chrome/content/aboutIceweasel/aboutIce.manifest
+
+override chrome://branding/locale/brand.dtd chrome://iceweasel-branding/locale/brand.dtd
+override chrome://branding/locale/brand.properties chrome://iceweasel-branding/locale/brand.properties
+override chrome://branding/content/about.png chrome://iceweasel-branding/content/about.png
+override chrome://branding/content/icon128.png chrome://iceweasel-branding/content/icon128.png
+override chrome://branding/content/icon64.png chrome://iceweasel-branding/content/icon64.png
+override chrome://branding/content/icon48.png chrome://iceweasel-branding/content/icon48.png
+override chrome://branding/content/icon16.png chrome://iceweasel-branding/content/icon16.png
+override chrome://branding/content/about-logo.png chrome://iceweasel-branding/content/about-logo.png
+override chrome://branding/content/about-wordmark.png chrome://iceweasel-branding/content/about-wordmark.png
+override chrome://branding/content/about-wordmark.svg chrome://iceweasel-branding/content/about-wordmark.svg
+override chrome://branding/content/aboutDialog.css chrome://iceweasel-branding/content/aboutDialog.css
+override chrome://branding/content/identity-icons-brand.png chrome://iceweasel-branding/content/identity-icons-brand.png
+override chrome://branding/content/identity-icons-brand.svg chrome://iceweasel-branding/content/identity-icons-brand.svg
+
+style chrome://browser/content/browser.xul chrome://iceweasel-branding/content/browser-overlay.css
