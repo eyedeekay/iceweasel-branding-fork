@@ -1,5 +1,7 @@
 # Debian Iceweasel, forever!
 
+* https://addons.mozilla.org/en-US/firefox/addon/iceweasel-branding/
+
 
 ## Copyright
 
