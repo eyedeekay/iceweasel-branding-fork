@@ -1,2 +1,13 @@
 # Debian Iceweasel, forever!
 
+
+## Copyright
+
+        Packaged as Firefox extension
+        Copyright (C) 2016, Desktopd Project
+        License: MPL-2.0
+        
+        Original work:
+        Copyright (C) 2005-2014, Mike Hommey <glandium@debian.org>
+        License: MPL-2.0
+
