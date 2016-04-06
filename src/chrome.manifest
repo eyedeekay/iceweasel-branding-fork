@@ -13,12 +13,15 @@ override chrome://branding/content/about.png chrome://iceweasel-branding/content
 override chrome://branding/content/icon128.png chrome://iceweasel-branding/content/icon128.png
 override chrome://branding/content/icon64.png chrome://iceweasel-branding/content/icon64.png
 override chrome://branding/content/icon48.png chrome://iceweasel-branding/content/icon48.png
+override chrome://branding/content/icon32.png chrome://iceweasel-branding/content/icon32.png
 override chrome://branding/content/icon16.png chrome://iceweasel-branding/content/icon16.png
 override chrome://branding/content/about-logo.png chrome://iceweasel-branding/content/about-logo.png
+override chrome://branding/content/about-logo@2x.png chrome://iceweasel-branding/content/about-logo@2x.png
 override chrome://branding/content/about-wordmark.png chrome://iceweasel-branding/content/about-wordmark.png
 override chrome://branding/content/about-wordmark.svg chrome://iceweasel-branding/content/about-wordmark.svg
 override chrome://branding/content/aboutDialog.css chrome://iceweasel-branding/content/aboutDialog.css
 override chrome://branding/content/identity-icons-brand.png chrome://iceweasel-branding/content/identity-icons-brand.png
 override chrome://branding/content/identity-icons-brand.svg chrome://iceweasel-branding/content/identity-icons-brand.svg
+override chrome://branding/content/silhouette-40.svg chrome://iceweasel-branding/content/silhouette-40.svg
 
 style chrome://browser/content/browser.xul chrome://iceweasel-branding/content/browser-overlay.css

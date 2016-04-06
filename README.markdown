@@ -1,7 +1,7 @@
 # Debian Iceweasel, forever!
 
 * https://addons.mozilla.org/en-US/firefox/addon/iceweasel-branding/
-
+* TODO: Write a Makefile and clean up generated files
 
 ## Copyright
 
@@ -12,5 +12,6 @@
         Original work:
         Copyright (C) 2005-2014, Mike Hommey <glandium@debian.org>
         License: MPL-2.0
-
+        
 	The artwork is copyright Unicko.
+
