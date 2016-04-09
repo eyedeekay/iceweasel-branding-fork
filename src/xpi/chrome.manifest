@@ -21,5 +21,7 @@ override chrome://branding/content/about-wordmark.svg chrome://iceweasel-brandin
 override chrome://branding/content/identity-icons-brand.svg chrome://iceweasel-branding/content/unofficial/identity-icons-brand.svg
 override chrome://branding/content/silhouette-40.svg chrome://iceweasel-branding/content/unofficial/silhouette-40.svg
 
+override chrome://branding/content/aboutDialog.css chrome://iceweasel-branding/content/aboutDialog.css
+
 # Can't be restartless
 style chrome://browser/content/browser.xul chrome://iceweasel-branding/content/browser-overlay.css
