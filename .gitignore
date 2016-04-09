@@ -1,0 +1,14 @@
+*.xpi
+/xpi-build
+/src/addon_icon.png
+/src/addon_icon64.png
+/src/icon16.png
+/src/icon32.png
+/src/icon48.png
+/src/icon64.png
+/src/icon128.png
+/src/about-logo.png
+/src/about-logo@2x.png
+/src/about-wordmark.svg
+/src/about.png
+/src/iceweasel_logo.png
