@@ -10,6 +10,7 @@
 #leftBox {
   background-image: url("chrome://branding/content/about-logo.png");
   background-repeat: no-repeat;
+  background-size: 210px auto;
   /* min-width and min-height create room for the logo */
   min-width: 210px;
   min-height: 210px;
