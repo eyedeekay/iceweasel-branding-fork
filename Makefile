@@ -5,6 +5,7 @@
 rsvg_command = rsvg-convert
 composite_command = composite
 convert_command = convert
+xsltproc_command = xsltproc
 
 srcdir = ./src
 objdir = ./xpi-build
@@ -19,14 +20,14 @@ $(srcdir)/iceweasel_logo.png: $(srcdir)/iceweasel_logo.svg
 GENERATED = $(srcdir)/iceweasel_logo.png
 
 $(srcdir)/about-wordmark.svg: $(srcdir)/wordmark.xsl $(srcdir)/iceweasel_logo.svg
-	xsltproc -o $@ $^
+	$(xsltproc_command) -o $@ $^
 
 GENERATED += $(srcdir)/about-wordmark.svg
 
 # Make it reproducible
 $(srcdir)/about.png: $(srcdir)/iceweasel_logo.png $(srcdir)/about-base.png
-	composite -compose src-over -gravity center -geometry +0-26 $^ - | \
-	convert - -define png:exclude-chunk=time +set date:create +set date:modify $@
+	$(composite_command) -compose src-over -gravity center -geometry +0-26 $^ - | \
+	$(convert_command) - -define png:exclude-chunk=time +set date:create +set date:modify $@
 
 GENERATED += $(srcdir)/about.png
 
@@ -49,15 +50,15 @@ $(srcdir)/icon64.png: SIZE=64
 $(srcdir)/icon128.png: SIZE=128
 
 $(srcdir)/icon16.png $(srcdir)/icon32.png $(srcdir)/icon48.png $(srcdir)/icon64.png $(srcdir)/icon128.png: $(srcdir)/iceweasel_icon.svg
-	rsvg-convert -w $(SIZE) -h $(SIZE) -o $@ $<
+	$(rsvg_command) -w $(SIZE) -h $(SIZE) -o $@ $<
 
 GENERATED += $(srcdir)/icon16.png $(srcdir)/icon32.png $(srcdir)/icon48.png $(srcdir)/icon64.png $(srcdir)/icon128.png
 
 $(srcdir)/about-logo.png: $(srcdir)/iceweasel_icon.svg
-	rsvg-convert -w 210 -h 210 -o $@ $<
+	$(rsvg_command) -w 210 -h 210 -o $@ $<
 
 $(srcdir)/about-logo@2x.png: $(srcdir)/iceweasel_icon.svg
-	rsvg-convert -w 420 -h 420 -o $@ $<
+	$(rsvg_command) -w 420 -h 420 -o $@ $<
 
 GENERATED += $(srcdir)/about-logo.png $(srcdir)/about-logo@2x.png
 
