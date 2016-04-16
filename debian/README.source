@@ -1,0 +1,12 @@
+firefox-branding-iceweasel for Debian
+-------------------------------------
+
+Build dependencies on librsvg2-bin and xsltproc are inherited from the original
+iceweasel source package.
+
+This package is mostly Debian-specific and therefore natively packaged. This
+does not hinder non-Debian builds though.
+
+
+ -- nord-stream <nord-stream@ochaken.jp.eu.org>  Sat, 16 Apr 2016 03:40:06 +0000
+

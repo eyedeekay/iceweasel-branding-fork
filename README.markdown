@@ -1,17 +1,6 @@
 # Debian Iceweasel, forever!
 
+* Preserves Iceweasel branding for new Firefox debian packages.
 * https://addons.mozilla.org/en-US/firefox/addon/iceweasel-branding/
-* TODO: Write a Makefile and clean up generated files
-
-## Copyright
-
-        Packaged as Firefox extension
-        Copyright (C) 2016, Desktopd Project
-        License: MPL-2.0
-        
-        Original work:
-        Copyright (C) 2005-2014, Mike Hommey <glandium@debian.org>
-        License: MPL-2.0
-        
-	The artwork is copyright Unicko.
+* Based on the original Iceweasel package by Mike Hommey. The artwork is "copyright Unicko" according to him.
 

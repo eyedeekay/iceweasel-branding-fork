@@ -1,0 +1,6 @@
+firefox-branding-iceweasel (0.3.0) unstable; urgency=low
+
+  * Initial Debian packaging.
+  * Removed support for older Firefox releases (<45.0).
+
+ -- nord-stream <nord-stream@ochaken.jp.eu.org>  Sat, 16 Apr 2016 03:40:06 +0000

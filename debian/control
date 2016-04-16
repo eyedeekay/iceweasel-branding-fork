@@ -1,0 +1,31 @@
+Source: firefox-branding-iceweasel
+Section: web
+Priority: optional
+Maintainer: nord-stream <nord-stream@ochaken.jp.eu.org>
+Build-Depends: debhelper (>= 9),
+ mozilla-devscripts,
+ librsvg2-bin,
+ xsltproc
+Standards-Version: 3.9.8
+Homepage: https://notabug.org/desktopd/iceweasel-branding
+
+Package: firefox-branding-iceweasel
+Architecture: all
+Depends: ${misc:Depends},
+ ${xpi:Depends}
+Recommends:
+ ${xpi:Recommends}
+Enhances:
+ ${xpi:Enhances}
+Provides:
+ ${xpi:Provides}
+Breaks:
+ ${xpi:Breaks}
+Description: Preserves Iceweasel branding for new Firefox packages
+ Debian distributed a rebranded version of Firefox called Iceweasel. This was
+ due to legal concerns. In 2016 Debian and Mozilla developers agreed that
+ Debian can legally package Firefox without violating DFSG. Firefox is back in
+ Debian and Iceweasel is now gone! However, some people want to continue using
+ Iceweasel, and Iceweasel does have a historical value. So this rebranding
+ package was created to restore Iceweasel branding for Firefox. Most files are
+ just copied from the original Iceweasel package.

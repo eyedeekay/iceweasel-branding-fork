@@ -17,6 +17,7 @@ override chrome://branding/content/icon32.png chrome://iceweasel-branding/conten
 override chrome://branding/content/icon16.png chrome://iceweasel-branding/content/icon16.png
 override chrome://branding/content/about-logo.png chrome://iceweasel-branding/content/about-logo.png
 override chrome://branding/content/about-logo@2x.png chrome://iceweasel-branding/content/about-logo@2x.png
+override chrome://branding/content/about-wordmark.png chrome://iceweasel-branding/content/about-wordmark.png
 override chrome://branding/content/about-wordmark.svg chrome://iceweasel-branding/content/about-wordmark.svg
 override chrome://branding/content/identity-icons-brand.svg chrome://iceweasel-branding/content/unofficial/identity-icons-brand.svg
 override chrome://branding/content/silhouette-40.svg chrome://iceweasel-branding/content/unofficial/silhouette-40.svg

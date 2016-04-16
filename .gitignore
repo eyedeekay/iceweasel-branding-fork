@@ -1,4 +1,5 @@
 *.xpi
+*.log
 /xpi-build
 /src/addon_icon.png
 /src/addon_icon64.png
@@ -10,5 +11,8 @@
 /src/about-logo.png
 /src/about-logo@2x.png
 /src/about-wordmark.svg
+/src/about-wordmark.png
 /src/about.png
 /src/iceweasel_logo.png
+/debian/firefox-branding-iceweasel*
+/debian/files
