@@ -22,7 +22,7 @@ Provides:
  ${xpi:Provides}
 Breaks:
  ${xpi:Breaks}
-Description: Preserves Iceweasel branding for new Firefox packages
+Description: Branding for Firefox to apply Iceweasel name and images
  Debian distributed a rebranded version of Firefox called Iceweasel. This was
  due to legal concerns. In 2016 Debian and Mozilla developers agreed that
  Debian can legally package Firefox without violating DFSG. Firefox is back in

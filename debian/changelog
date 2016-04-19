@@ -1,3 +1,9 @@
+firefox-branding-iceweasel (0.3.1) unstable; urgency=low
+
+  * Simplified debian/rules
+
+ -- nord-stream <nord-stream@ochaken.jp.eu.org>  Tue, 19 Apr 2016 13:34:30 +0000
+
 firefox-branding-iceweasel (0.3.0) unstable; urgency=low
 
   * Initial Debian packaging.
