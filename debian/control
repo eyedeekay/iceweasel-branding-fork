@@ -10,7 +10,7 @@ Build-Depends: debhelper (>= 9),
 Standards-Version: 3.9.8
 Homepage: https://notabug.org/desktopd/iceweasel-branding
 
-Package: firefox-branding-iceweasel
+Package: xul-ext-iceweasel-branding
 Architecture: all
 Depends: ${misc:Depends},
  ${xpi:Depends}
@@ -19,6 +19,7 @@ Recommends:
 Enhances:
  ${xpi:Enhances}
 Provides:
+ firefox-branding-iceweasel,
  ${xpi:Provides}
 Breaks:
  ${xpi:Breaks}
