@@ -1,7 +1,8 @@
 Source: firefox-branding-iceweasel
 Section: web
 Priority: optional
-Maintainer: nord-stream <nord-stream@ochaken.jp.eu.org>
+Maintainer: Debian Mozilla Extension Maintainers <pkg-mozext-maintainers@lists.alioth.debian.org>
+Uploaders: nord-stream <nord-stream@ochaken.jp.eu.org>
 Build-Depends: debhelper (>= 9),
  mozilla-devscripts,
  librsvg2-bin,
