@@ -2,8 +2,6 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-# This Makefile does not build a .xpi archive. It has no `install' target.
-
 rsvg_command = rsvg-convert
 composite_command = composite
 convert_command = convert
@@ -12,6 +10,7 @@ INSTALL = install
 
 srcdir = ./src
 objdir = ./xpi-build
+basedir = .
 
 all: addon
 
@@ -74,7 +73,18 @@ addon: $(GENERATED)
 	cp -r $(srcdir)/iceweasel/locale $(srcdir)/iceweasel/content $(objdir)/chrome
 	cp $(srcdir)/icon16.png $(srcdir)/icon32.png $(srcdir)/icon48.png $(srcdir)/icon64.png $(srcdir)/icon128.png $(srcdir)/about.png $(srcdir)/about-wordmark.png $(srcdir)/about-wordmark.svg $(srcdir)/about-logo.png $(srcdir)/about-logo@2x.png $(objdir)/chrome/content
 
+
+# Only for Debian packaging
+install: install-debian
+
+install-debian:
+	@echo "The 'install' target is only for Debian packaging!"
+	xpi-pack $(objdir) $(basedir)/build.xpi
+	install-xpi $(basedir)/build.xpi
+
+GENERATED += $(basedir)/build.xpi
+
+# Clean everything
 clean:
 	rm -f $(GENERATED) ./*.xpi
 	rm -fr $(objdir)
-

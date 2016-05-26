@@ -2,7 +2,3 @@
 
 %:
 	dh $@ --with xul-ext --parallel
-
-override_dh_auto_install:
-	xpi-pack ./xpi-build ./build.xpi
-	install-xpi ./build.xpi

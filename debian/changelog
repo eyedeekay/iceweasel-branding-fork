@@ -1,18 +1,6 @@
 firefox-branding-iceweasel (0.3.2) unstable; urgency=low
 
-  * Updated to join Mozilla Extension Packaging Team.
-
- -- nord-stream <nord-stream@ochaken.jp.eu.org>  Wed, 25 May 2016 11:31:21 +0000
-
-firefox-branding-iceweasel (0.3.1) unstable; urgency=low
-
-  * Simplified debian/rules
-
- -- nord-stream <nord-stream@ochaken.jp.eu.org>  Tue, 19 Apr 2016 13:34:30 +0000
-
-firefox-branding-iceweasel (0.3.0) unstable; urgency=low
-
   * Initial Debian packaging.
   * Removed support for older Firefox releases (<45.0).
 
- -- nord-stream <nord-stream@ochaken.jp.eu.org>  Sat, 16 Apr 2016 03:40:06 +0000
+ -- nord-stream <nord-stream@ochaken.jp.eu.org>  Thu, 26 May 2016 14:04:24 +0000
