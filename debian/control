@@ -10,8 +10,8 @@ Build-Depends: debhelper (>= 9),
  imagemagick
 Standards-Version: 3.9.8
 Homepage: https://notabug.org/desktopd/iceweasel-branding
-Vcs-Git: git://git.debian.org/pkg-mozext/iceweasel-branding.git
-Vcs-Browser: http://git.debian.org/?p=pkg-mozext/iceweasel-branding.git;a=summary
+Vcs-Git: https://anonscm.debian.org/git/pkg-mozext/iceweasel-branding.git
+Vcs-Browser: https://anonscm.debian.org/cgit/pkg-mozext/iceweasel-branding.git
 
 Package: xul-ext-iceweasel-branding
 Architecture: all
