@@ -11,11 +11,17 @@ Files: src/iceweasel/*
 Copyright: 2005-2014, Mike Hommey <glandium@debian.org>
            1998-2010, Mozilla Project
            2016 Desktopd Project
-License: MPL-2.0, and MPL-1.1 or GPL-2.0+ or LGPL-2.1+
+License: MPL-2.0
 
 Files: debian/*
 Copyright: 2016 nord-stream <nord-stream@ochaken.jp.eu.org>
 License: MPL-2.0
+
+Files: src/iceweasel/content/aboutIceweasel/*
+Copyright: 2005-2014, Mike Hommey <glandium@debian.org>
+           1998-2010, Mozilla Project
+           2016 Desktopd Project
+License: MPL-1.1 or GPL-2.0+ or LGPL-2.1+
 
 License: MPL-2.0
  This Source Code Form is subject to the terms of the Mozilla Public
