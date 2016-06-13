@@ -14,3 +14,6 @@
  package was created to restore Iceweasel branding for Firefox. Most files were
  just copied from the original Iceweasel package.
  
+## TODO
+
+* Ship a .desktop file in some way
