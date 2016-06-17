@@ -8,6 +8,7 @@ Build-Depends: debhelper (>= 9),
  librsvg2-bin,
  xsltproc,
  imagemagick
+Build-Conflicts: graphicsmagick-imagemagick-compat
 Standards-Version: 3.9.8
 Homepage: https://notabug.org/desktopd/iceweasel-branding
 Vcs-Git: https://anonscm.debian.org/git/pkg-mozext/iceweasel-branding.git
@@ -26,10 +27,9 @@ Provides:
  ${xpi:Provides}
 Breaks:
  ${xpi:Breaks}
+Conflicts: iceweasel (<< 45.0)
 Description: Branding for Firefox to apply Iceweasel name and images
  This package preserves and restores the look and feel of Iceweasel, the Debian-
  rebranded version of Firefox distributed before Firefox came back to Debian.
  Most files were just copied from the original Iceweasel package, including the
  famous about:iceweasel page of historic value.
- .
- It does not change the desktop icon (yet).

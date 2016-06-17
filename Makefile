@@ -81,6 +81,12 @@ install-debian:
 	@echo "The 'install' target is only for Debian packaging!"
 	xpi-pack $(objdir) $(basedir)/build.xpi
 	install-xpi $(basedir)/build.xpi
+	$(INSTALL) -Dm 0644 $(srcdir)/icon16.png $(DESTDIR)/usr/share/icons/hicolor/16x16/apps/iceweasel.png
+	$(INSTALL) -Dm 0644 $(srcdir)/icon32.png $(DESTDIR)/usr/share/icons/hicolor/32x32/apps/iceweasel.png
+	$(INSTALL) -Dm 0644 $(srcdir)/icon48.png $(DESTDIR)/usr/share/icons/hicolor/48x48/apps/iceweasel.png
+	$(INSTALL) -Dm 0644 $(srcdir)/icon64.png $(DESTDIR)/usr/share/icons/hicolor/64x64/apps/iceweasel.png
+	$(INSTALL) -Dm 0644 $(srcdir)/icon128.png $(DESTDIR)/usr/share/icons/hicolor/128x128/apps/iceweasel.png
+	$(INSTALL) -Dm 0644 $(srcdir)/iceweasel/iceweasel_icon.svg $(DESTDIR)/usr/share/icons/hicolor/scalable/apps/iceweasel.svg
 
 GENERATED += $(basedir)/build.xpi
 
