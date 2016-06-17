@@ -15,5 +15,6 @@
 /src/about.png
 /src/iceweasel_logo.png
 /debian/firefox-branding-iceweasel*
-/debian/xul-ext-*
+/debian/xul-ext-iceweasel-branding/*
+/debian/xul-ext-iceweasel-branding.substvars
 /debian/files
