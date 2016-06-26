@@ -1,9 +1,9 @@
-firefox-branding-iceweasel (0.3.3) UNRELEASED; urgency=low
+firefox-branding-iceweasel (0.4.0) unstable; urgency=low
 
   * Register a .desktop file and icons.
   * Marked as multiprocess-compatible.
 
- -- nord-stream <nord-stream@ochaken.jp.eu.org>  Fri, 17 Jun 2016 04:31:29 +0000
+ -- nord-stream <nord-stream@ochaken.jp.eu.org>  Sun, 26 Jun 2016 07:20:16 +0000
 
 firefox-branding-iceweasel (0.3.2) unstable; urgency=low
 
