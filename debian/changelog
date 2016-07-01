@@ -1,3 +1,9 @@
+firefox-branding-iceweasel (0.4.1) UNRELEASED; urgency=low
+
+  * Updated install.rdf as appropriate.
+
+ -- nord-stream <nord-stream@ochaken.jp.eu.org>  Fri, 1 Jul 2016 12:42:05 +0000
+
 firefox-branding-iceweasel (0.4.0) unstable; urgency=low
 
   * Register a .desktop file and icons.

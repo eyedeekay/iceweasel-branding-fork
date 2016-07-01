@@ -7,7 +7,7 @@ file, You can obtain one at http://mozilla.org/MPL/2.0/.
   <Description about="urn:mozilla:install-manifest">
     <em:id>iceweasel-branding@mozilla.debian.net</em:id>
     <em:name>Iceweasel Branding</em:name>
-    <em:version>0.3.3</em:version>
+    <em:version>0.4.1</em:version>
     <em:type>2</em:type>
     <em:unpack>true</em:unpack>
     <em:multiprocessCompatible>true</em:multiprocessCompatible>
