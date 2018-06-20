@@ -1,9 +1,8 @@
 #!/bin/sh -e
 
-package=xul-ext-iceweasel-branding
+package=xul-ext-ui2pbrowser-branding
 if [ "$1" = "upgrade" ] || [ "$1" = "install" ] ; then
-    dpkg-divert --package "$package" --divert /usr/share/applications/iceweasel.desktop.diverted --rename /usr/share/applications/iceweasel.desktop
-    dpkg-divert --package "$package" --divert /usr/share/applications/firefox-esr.desktop.diverted --rename /usr/share/applications/firefox-esr.desktop
+    dpkg-divert --package "$package" --divert /usr/share/applications/ui2pbrowser.desktop.diverted --rename /usr/share/applications/ui2pbrowser.desktop
 fi
 
 #DEBHELPER#

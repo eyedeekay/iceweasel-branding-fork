@@ -1,9 +1,8 @@
 #!/bin/sh -e
 
-package=xul-ext-iceweasel-branding
+package=xul-ext-ui2pbrowser-branding
 if [ "$1" = "remove" ]; then
-    dpkg-divert --package "$package" --rename --remove /usr/share/applications/iceweasel.desktop
-    dpkg-divert --package "$package" --rename --remove /usr/share/applications/firefox-esr.desktop
+    dpkg-divert --package "$package" --rename --remove /usr/share/applications/ui2pbrowser.desktop
 fi
 
 #DEBHELPER#

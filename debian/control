@@ -1,20 +1,20 @@
-Source: firefox-branding-iceweasel
+Source: firefox-branding-ui2pbrowser
 Section: web
 Priority: optional
-Maintainer: Debian Mozilla Extension Maintainers <pkg-mozext-maintainers@lists.alioth.debian.org>
-Uploaders: nord-stream <nord-stream@ochaken.jp.eu.org>
+Maintainer: eyedeekay <eyedeekay@safe-mail.i2p>
+Uploaders: nord-stream <eyedeekay@safe-mail.i2p>
 Build-Depends: debhelper (>= 9),
  mozilla-devscripts,
  librsvg2-bin,
  xsltproc,
  imagemagick
 Build-Conflicts: graphicsmagick-imagemagick-compat
-Standards-Version: 3.9.8
-Homepage: https://notabug.org/desktopd/iceweasel-branding
-Vcs-Git: https://anonscm.debian.org/git/pkg-mozext/iceweasel-branding.git
-Vcs-Browser: https://anonscm.debian.org/cgit/pkg-mozext/iceweasel-branding.git
+Standards-Version: 4.0.0
+Homepage: https://github.com/eyedeekay/ui2pbrowser-branding
+Vcs-Git: https://github.com/eyedeekay/ui2pbrowser-branding.git
+Vcs-Browser: https://github.com/eyedeekay/ui2pbrowser-branding.git
 
-Package: xul-ext-iceweasel-branding
+Package: xul-ext-ui2pbrowser-branding
 Architecture: all
 Depends: ${misc:Depends},
  ${xpi:Depends}
@@ -23,13 +23,12 @@ Recommends:
 Enhances:
  ${xpi:Enhances}
 Provides:
- firefox-branding-iceweasel,
+ firefox-branding-ui2pbrowser,
  ${xpi:Provides}
 Breaks:
  ${xpi:Breaks}
-Conflicts: iceweasel (<< 45.0)
-Description: Branding for Firefox to apply Iceweasel name and images
- This package preserves and restores the look and feel of Iceweasel, the Debian-
+Description: Branding for Firefox to apply Unofficial i2p Browser name and images
+ This package preserves and restores the look and feel of Unofficial i2p Browser, the Debian-
  rebranded version of Firefox distributed before Firefox came back to Debian.
- Most files were just copied from the original Iceweasel package, including the
- famous about:iceweasel page of historic value.
+ Most files were just copied from the original Unofficial i2p Browser package, including the
+ famous about:ui2pbrowser page of historic value.

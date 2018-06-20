@@ -1,13 +1,13 @@
 Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
-Upstream-Name: Iceweasel Branding
-Source: https://notabug.org/desktopd/iceweasel-branding
+Upstream-Name: Unofficial i2p Browser Branding
+Source: https://notabug.org/desktopd/ui2pbrowser-branding
 
 Files: *
 Copyright: 2016 Desktopd Project
            2016 nord-stream <nord-stream@ochaken.jp.eu.org>
 License: MPL-2.0
 
-Files: src/iceweasel/*
+Files: src/ui2pbrowser/*
 Copyright: 2005-2014, Mike Hommey <glandium@debian.org>
            1998-2010, Mozilla Project
            2016 Desktopd Project
@@ -17,7 +17,7 @@ Files: debian/*
 Copyright: 2016 nord-stream <nord-stream@ochaken.jp.eu.org>
 License: MPL-2.0
 
-Files: src/iceweasel/content/aboutIceweasel/*
+Files: src/ui2pbrowser/content/aboutui2pbrowser/*
 Copyright: 2005-2014, Mike Hommey <glandium@debian.org>
            1998-2010, Mozilla Project
            2016 Desktopd Project
@@ -32,7 +32,7 @@ License: MPL-2.0
  the `MPL-2.0' file in the same directory as this file.
 
 License: MPL-1.1
- This program is subject to the Mozilla Public License Version 1.1 
+ This program is subject to the Mozilla Public License Version 1.1
  (the "License"); you may not use this file except in compliance with
  the License.
  .
@@ -61,7 +61,7 @@ License: GPL-2.0+
 License: LGPL-2.1+
  This program is free software; you can redistribute it and/or modify it
  under the terms of the GNU Lesser General Public License as published by the
- Free Software Foundation; either version 2.1 of the License, or (at your 
+ Free Software Foundation; either version 2.1 of the License, or (at your
  option) any later version.
  .
  This program is distributed in the hope that it will be useful,

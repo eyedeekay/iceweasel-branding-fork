@@ -1,8 +1,8 @@
-firefox-branding-iceweasel for Debian
+firefox-branding-ui2pbrowser for Debian
 -------------------------------------
 
 Build dependencies on librsvg2-bin and xsltproc are inherited from the original
-iceweasel source package.
+ui2pbrowser source package.
 
 This package is mostly Debian-specific and therefore natively packaged. This
 does not hinder non-Debian builds though.
